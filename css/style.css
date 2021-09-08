@@ -25,6 +25,8 @@ html {
     align-items: center;
     border-radius: 15px;
     box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.2);
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 
@@ -42,6 +44,8 @@ html {
 
 .div_input {
     position: relative;
+    display:block;
+    margin: 20px;
 }
 
 .label {
