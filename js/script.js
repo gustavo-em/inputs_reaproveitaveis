@@ -1,3 +1,5 @@
+// INPUT------------------------------->
+//Ao clicar fora do input verifica se tem algo digitado nele para adicionar ou nao a classe 'deixar_ativo'
 $('body').on('click keypress', function(){
 
     $('.input').each(function(){
@@ -12,7 +14,7 @@ $('body').on('click keypress', function(){
         }
     })
 })
-
+//Ao retirar o mouse do input verifica se ele nao esta focado e se nao tem nada digitado
 $('body').on('mouseleave', '.input', function(){
     //Se tiver algo digitado ou o input focado ao tirar o mouse, deixa ativo
 
@@ -27,3 +29,4 @@ $('body').on('mouseleave', '.input', function(){
         }
     })
 })
+// FIM INPUT------------------------------->
