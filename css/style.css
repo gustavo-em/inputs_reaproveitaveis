@@ -1,0 +1,19 @@
+.logo{
+    width: 30%;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/img/caminhao2ge.svg') ;
+    background-repeat: no-repeat; 
+}
+
+/* media querie para quando for mobile nao ter muito margin para baixo */
+@media (max-width: 780px)
+{
+    .logo{
+        height: 20vh;
+    }
+}
